@@ -22,7 +22,7 @@ public class Weapon : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
 	{
-		firePoint = transform.FindChild("FirePoint");
+		firePoint = transform.Find("FirePoint");
 		if(firePoint == null)
 			Debug.LogError("Fire Point not found.");
 

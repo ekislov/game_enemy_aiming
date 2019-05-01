@@ -1,32 +1,54 @@
 fileFormatVersion: 2
 guid: 85b7cc231b19f5b4190a0ef1a46f9e0d
 TextureImporter:
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: AstronautSpriteAtlas_0
+    21300002: AstronautSpriteAtlas_1
+    21300004: AstronautSpriteAtlas_2
+    21300006: AstronautSpriteAtlas_3
+    21300008: AstronautSpriteAtlas_4
+    21300010: AstronautSpriteAtlas_5
+    21300012: AstronautSpriteAtlas_6
+    21300014: AstronautIdle
+    21300016: AstronautJump
+    21300018: Arm
+    21300020: MachineGun
+    21300022: Pistol
+  externalObjects: {}
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -2
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -34,14 +56,36 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: AstronautSpriteAtlas_0
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_0
       rect:
         serializedVersion: 2
         x: 5
@@ -49,8 +93,19 @@ TextureImporter:
         width: 17
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_1
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778eb60febbc54c8f80547dd4184d614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_1
       rect:
         serializedVersion: 2
         x: 38
@@ -58,8 +113,19 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_2
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94033bd8987444c27b0f2fd7e712ed52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_2
       rect:
         serializedVersion: 2
         x: 71
@@ -67,8 +133,19 @@ TextureImporter:
         width: 15
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_3
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76e870b1c52140668d2e28d967b195f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_3
       rect:
         serializedVersion: 2
         x: 103
@@ -76,8 +153,19 @@ TextureImporter:
         width: 15
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_4
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968a0915c23944f095e441f743844a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_4
       rect:
         serializedVersion: 2
         x: 7
@@ -85,8 +173,19 @@ TextureImporter:
         width: 15
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_5
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25048c2df9d045218da07ae07703334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_5
       rect:
         serializedVersion: 2
         x: 38
@@ -94,8 +193,19 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautSpriteAtlas_6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f281a39509947479382fc76efbe75856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautSpriteAtlas_6
       rect:
         serializedVersion: 2
         x: 69
@@ -103,8 +213,19 @@ TextureImporter:
         width: 17
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautIdle
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150e5fcc99a35488da73d01488697ab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautIdle
       rect:
         serializedVersion: 2
         x: 6
@@ -112,8 +233,19 @@ TextureImporter:
         width: 15
         height: 32
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: AstronautJump
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3bdd2b9b0094f48a60bed993398616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstronautJump
       rect:
         serializedVersion: 2
         x: 30
@@ -121,8 +253,19 @@ TextureImporter:
         width: 17
         height: 31
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: Arm
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5e37e4a629f40248056eebb3c616ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arm
       rect:
         serializedVersion: 2
         x: 57
@@ -130,8 +273,19 @@ TextureImporter:
         width: 12
         height: 5
       alignment: 9
-      pivot: {x: .180000007, y: .569999993}
-    - name: MachineGun
+      pivot: {x: 0.18, y: 0.57}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8226b3b8c7bb64b4db69d0cbaf63c93e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MachineGun
       rect:
         serializedVersion: 2
         x: 77
@@ -139,8 +293,19 @@ TextureImporter:
         width: 24
         height: 9
       alignment: 0
-      pivot: {x: .5, y: .5}
-    - name: Pistol
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fe69c749eb6401a994203dfd5d0169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pistol
       rect:
         serializedVersion: 2
         x: 77
@@ -148,6 +313,26 @@ TextureImporter:
         width: 5
         height: 4
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1569d24a6d76455daea7e724a544628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

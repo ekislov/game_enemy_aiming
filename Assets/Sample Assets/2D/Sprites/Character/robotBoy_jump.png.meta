@@ -1,32 +1,68 @@
 fileFormatVersion: 2
 guid: 9e1a2edf6149977479db158e4fbf9671
 TextureImporter:
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: JumpBlendTree_0
+    21300002: JumpBlendTree_1
+    21300004: JumpBlendTree_2
+    21300006: JumpBlendTree_3
+    21300008: JumpBlendTree_4
+    21300010: JumpBlendTree_5
+    21300012: JumpBlendTree_6
+    21300014: JumpBlendTree_7
+    21300016: JumpBlendTree_8
+    21300018: JumpBlendTree_9
+    21300020: JumpBlendTree_10
+    21300022: JumpBlendTree_11
+    21300024: JumpBlendTree_12
+    21300026: JumpBlendTree_13
+    21300028: JumpBlendTree_14
+    21300030: JumpBlendTree_15
+    21300032: JumpBlendTree_16
+    21300034: JumpBlendTree_17
+    21300036: JumpBlendTree_18
+    21300038: JumpBlendTree_19
+    21300040: JumpBlendTree_20
+    21300042: JumpBlendTree_21
+    21300044: JumpBlendTree_22
+    21300046: JumpBlendTree_23
+    21300048: JumpBlendTree_24
+    21300050: JumpBlendTree_25
+  externalObjects: {}
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -34,30 +70,80 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: iPhone
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
     maxTextureSize: 1024
-    textureFormat: -2
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
     compressionQuality: 100
-  - buildTarget: Android
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
-  - buildTarget: BlackBerry
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: BlackBerry
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
-  - buildTarget: WP8
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WP8
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: JumpBlendTree_0
+    - serializedVersion: 2
+      name: JumpBlendTree_0
       rect:
         serializedVersion: 2
         x: 0
@@ -66,7 +152,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_1
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ef3bb4ba6b342a59eb13c84a7fe889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_1
       rect:
         serializedVersion: 2
         x: 275
@@ -75,7 +172,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_2
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f003ab8c724d26891987160b8f7e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_2
       rect:
         serializedVersion: 2
         x: 550
@@ -84,7 +192,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_3
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d1a433562f444da8e06feeb590a48e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_3
       rect:
         serializedVersion: 2
         x: 825
@@ -93,7 +212,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_4
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9877f8257fec843ba958d7b38eee1ef7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_4
       rect:
         serializedVersion: 2
         x: 1100
@@ -102,7 +232,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_5
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a99239ef61c4814b88f2efc88739db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_5
       rect:
         serializedVersion: 2
         x: 1375
@@ -111,7 +252,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_6
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8294d1b54ce9944c99eb5e04e926c2c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_6
       rect:
         serializedVersion: 2
         x: 1650
@@ -120,7 +272,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_7
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bb2349b4f0a4e28a22ac621bede02d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_7
       rect:
         serializedVersion: 2
         x: 0
@@ -129,7 +292,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_8
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d679e698d7a8b4528b36c1ed7fbc5fe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_8
       rect:
         serializedVersion: 2
         x: 275
@@ -138,7 +312,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d3ebde11ad149dcba755f2ae8071d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_9
       rect:
         serializedVersion: 2
         x: 550
@@ -147,7 +332,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_10
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b116ff458be42d3852b26f607a156c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_10
       rect:
         serializedVersion: 2
         x: 825
@@ -156,7 +352,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_11
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd40d18c21e94b3380070221e05e1b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_11
       rect:
         serializedVersion: 2
         x: 1100
@@ -165,7 +372,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_12
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934f8e5b629eb4025b662a1eab99947d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_12
       rect:
         serializedVersion: 2
         x: 1375
@@ -174,7 +392,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_13
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca7ae9ad09594f498723c6cd40de1a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_13
       rect:
         serializedVersion: 2
         x: 1650
@@ -183,7 +412,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_14
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c14787e0b2846f186a384bbb6a081f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_14
       rect:
         serializedVersion: 2
         x: 0
@@ -192,7 +432,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_15
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373fa970a6728434e840908358a93582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_15
       rect:
         serializedVersion: 2
         x: 275
@@ -201,7 +452,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_16
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94317200d89384f2bb67b8b6a41abf72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_16
       rect:
         serializedVersion: 2
         x: 550
@@ -210,7 +472,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_17
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078fb295e8b694606a57725ebf801150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_17
       rect:
         serializedVersion: 2
         x: 825
@@ -219,7 +492,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_18
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4af6774a5bd426c8113ec7eea27b2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_18
       rect:
         serializedVersion: 2
         x: 1100
@@ -228,7 +512,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_19
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a322e5c31bfa4d94818af213e873708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_19
       rect:
         serializedVersion: 2
         x: 1375
@@ -237,7 +532,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_20
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c91070c65654b53a002f382061b3de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_20
       rect:
         serializedVersion: 2
         x: 1650
@@ -246,7 +552,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_21
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf60763a0f7425c8fa0a6f4c546b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_21
       rect:
         serializedVersion: 2
         x: 0
@@ -255,7 +572,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_22
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eaf459ee6ea4a3f872dcd997bb9a41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_22
       rect:
         serializedVersion: 2
         x: 275
@@ -264,7 +592,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_23
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452b9e8c0136945f994075aef881e122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_23
       rect:
         serializedVersion: 2
         x: 550
@@ -273,7 +612,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_24
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d7063abcd184807812f14c05571e67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_24
       rect:
         serializedVersion: 2
         x: 825
@@ -282,7 +632,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: JumpBlendTree_25
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee25d367c22740f58656f9724eb62b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JumpBlendTree_25
       rect:
         serializedVersion: 2
         x: 1100
@@ -291,5 +652,25 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c547b74626b64433b8578ea422ced44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

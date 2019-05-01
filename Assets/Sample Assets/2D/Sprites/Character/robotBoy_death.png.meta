@@ -1,32 +1,69 @@
 fileFormatVersion: 2
 guid: f45a39483cf4f914a816af821c9262bb
 TextureImporter:
-  serializedVersion: 2
+  fileIDToRecycleName:
+    21300000: robotBoy_death_0
+    21300002: robotBoy_death_1
+    21300004: robotBoy_death_2
+    21300006: robotBoy_death_3
+    21300008: robotBoy_death_4
+    21300010: robotBoy_death_5
+    21300012: robotBoy_death_6
+    21300014: robotBoy_death_7
+    21300016: robotBoy_death_8
+    21300018: robotBoy_death_9
+    21300020: robotBoy_death_10
+    21300022: robotBoy_death_11
+    21300024: robotBoy_death_12
+    21300026: robotBoy_death_13
+    21300028: robotBoy_death_14
+    21300030: robotBoy_death_15
+    21300032: robotBoy_death_16
+    21300034: robotBoy_death_17
+    21300036: robotBoy_death_18
+    21300038: robotBoy_death_19
+    21300040: robotBoy_death_20
+    21300042: robotBoy_death_21
+    21300044: robotBoy_death_22
+    21300046: robotBoy_death_23
+    21300048: robotBoy_death_24
+    21300050: robotBoy_death_25
+    21300052: robotBoy_death_26
+  externalObjects: {}
+  serializedVersion: 6
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -34,30 +71,80 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: iPhone
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
-    textureFormat: -2
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
     compressionQuality: 100
-  - buildTarget: Android
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
-  - buildTarget: BlackBerry
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: BlackBerry
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
-  - buildTarget: WP8
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WP8
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: robotBoy_death_0
+    - serializedVersion: 2
+      name: robotBoy_death_0
       rect:
         serializedVersion: 2
         x: 0
@@ -66,7 +153,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_1
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e002bc0d21cf847338c66ede99463a51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_1
       rect:
         serializedVersion: 2
         x: 275
@@ -75,7 +173,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_2
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c7448b205142fab205ff17535fa65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_2
       rect:
         serializedVersion: 2
         x: 550
@@ -84,7 +193,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_3
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e74e65a987649df848962e484704ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_3
       rect:
         serializedVersion: 2
         x: 825
@@ -93,7 +213,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_4
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53ceb19c536b4e6f99d4300ea80c1d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_4
       rect:
         serializedVersion: 2
         x: 1100
@@ -102,7 +233,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_5
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07db1a199cd8441248d53a404468f14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_5
       rect:
         serializedVersion: 2
         x: 1375
@@ -111,7 +253,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_6
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16aadf550437c4f57ab627344e2e58ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_6
       rect:
         serializedVersion: 2
         x: 1650
@@ -120,7 +273,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_7
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6df4bde6ef3475e96b112726ec5b46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_7
       rect:
         serializedVersion: 2
         x: 0
@@ -129,7 +293,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_8
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6438445fd8c44ddb5e241f3739fe04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_8
       rect:
         serializedVersion: 2
         x: 275
@@ -138,7 +313,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53da2d4146b7d4168928823b3747808b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_9
       rect:
         serializedVersion: 2
         x: 550
@@ -147,7 +333,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_10
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b753d378a4c54f9bb89a58b93c0da1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_10
       rect:
         serializedVersion: 2
         x: 825
@@ -156,7 +353,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_11
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965f7d5f0c324480286ce687807b8323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_11
       rect:
         serializedVersion: 2
         x: 1100
@@ -165,7 +373,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_12
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8860bfa9940a14b709b79cbb67b56a1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_12
       rect:
         serializedVersion: 2
         x: 1375
@@ -174,7 +393,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_13
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81c6657235224fdf92174f80e9c3f48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_13
       rect:
         serializedVersion: 2
         x: 1650
@@ -183,7 +413,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_14
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de6af8f0ce92455fb0ab55bdeae0d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_14
       rect:
         serializedVersion: 2
         x: 0
@@ -192,7 +433,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_15
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc32422824284e9fbe471c086a8950c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_15
       rect:
         serializedVersion: 2
         x: 275
@@ -201,7 +453,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_16
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1431f5cd0115047328a35cad63099cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_16
       rect:
         serializedVersion: 2
         x: 550
@@ -210,7 +473,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_17
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e646540dcd94d75bfee32314ba51a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_17
       rect:
         serializedVersion: 2
         x: 825
@@ -219,7 +493,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_18
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2a7913bb50949718b8da451307f959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_18
       rect:
         serializedVersion: 2
         x: 1100
@@ -228,7 +513,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_19
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ffdda98f00b4d7ca8c8b76e5ea52fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_19
       rect:
         serializedVersion: 2
         x: 1375
@@ -237,7 +533,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_20
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e237eb3d0324afdaa5275919e515b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_20
       rect:
         serializedVersion: 2
         x: 1650
@@ -246,7 +553,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_21
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e1219f1671a4159ae8d1923e1c5fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_21
       rect:
         serializedVersion: 2
         x: 0
@@ -255,7 +573,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_22
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab3d560d80ec42c484528662d2cc65b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_22
       rect:
         serializedVersion: 2
         x: 275
@@ -264,7 +593,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_23
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28baaf0ef01a841c69c3eb8d43bf9b34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_23
       rect:
         serializedVersion: 2
         x: 550
@@ -273,7 +613,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_24
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8fe9373131942d78b913be15dce935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_24
       rect:
         serializedVersion: 2
         x: 825
@@ -282,7 +633,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_25
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fd94e7e8cf140ce99201156d9c80e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_25
       rect:
         serializedVersion: 2
         x: 1100
@@ -291,7 +653,18 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: robotBoy_death_26
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02635e69327c44a0b362970066437bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_death_26
       rect:
         serializedVersion: 2
         x: 1375
@@ -300,5 +673,25 @@ TextureImporter:
         height: 275
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bd06c8614f94934870f4d8d48605ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
